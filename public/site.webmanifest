@@ -1,0 +1,23 @@
+{
+  "name": "Stellar - Generador de Diseño con IA",
+  "short_name": "Stellar",
+  "description": "Genera paletas de colores y tipografías únicas con inteligencia artificial",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-simple.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#facc15",
+  "background_color": "#1e293b",
+  "orientation": "portrait-primary"
+}

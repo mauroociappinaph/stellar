@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Fondo con gradiente espacial -->
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#facc15;stop-opacity:0.1" />
+      <stop offset="70%" style="stop-color:#1e293b;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#facc15" />
+      <stop offset="50%" style="stop-color:#fbbf24" />
+      <stop offset="100%" style="stop-color:#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Estrellas decorativas -->
+  <circle cx="100" cy="100" r="3" fill="#facc15" opacity="0.6"/>
+  <circle cx="1100" cy="80" r="2" fill="#fbbf24" opacity="0.8"/>
+  <circle cx="200" cy="500" r="2.5" fill="#facc15" opacity="0.7"/>
+  <circle cx="1000" cy="520" r="3" fill="#fbbf24" opacity="0.6"/>
+  <circle cx="150" cy="300" r="1.5" fill="#facc15" opacity="0.5"/>
+  <circle cx="1050" cy="300" r="2" fill="#fbbf24" opacity="0.7"/>
+
+  <!-- Título principal -->
+  <text x="600" y="200"
+        font-family="Lobster, cursive"
+        font-size="120"
+        font-weight="bold"
+        text-anchor="middle"
+        fill="url(#titleGradient)"
+        stroke="#dc2626"
+        stroke-width="3">Stellar</text>
+
+  <!-- Subtítulo -->
+  <text x="600" y="280"
+        font-family="Poppins, sans-serif"
+        font-size="32"
+        font-weight="600"
+        text-anchor="middle"
+        fill="#e2e8f0">Generador de Diseño con IA</text>
+
+  <!-- Descripción -->
+  <text x="600" y="350"
+        font-family="Open Sans, sans-serif"
+        font-size="24"
+        text-anchor="middle"
+        fill="#cbd5e1">Paletas de colores y tipografías únicas</text>
+
+  <text x="600" y="390"
+        font-family="Open Sans, sans-serif"
+        font-size="24"
+        text-anchor="middle"
+        fill="#cbd5e1">generadas con inteligencia artificial</text>
+
+  <!-- Elementos decorativos (paleta de colores simulada) -->
+  <rect x="400" y="450" width="60" height="60" rx="8" fill="#3b82f6"/>
+  <rect x="480" y="450" width="60" height="60" rx="8" fill="#ef4444"/>
+  <rect x="560" y="450" width="60" height="60" rx="8" fill="#10b981"/>
+  <rect x="640" y="450" width="60" height="60" rx="8" fill="#f59e0b"/>
+  <rect x="720" y="450" width="60" height="60" rx="8" fill="#8b5cf6"/>
+
+  <!-- Texto de tecnología -->
+  <text x="600" y="560"
+        font-family="Poppins, sans-serif"
+        font-size="18"
+        font-weight="500"
+        text-anchor="middle"
+        fill="#94a3b8">React • TypeScript • Google Gemini AI</text>
+</svg>
